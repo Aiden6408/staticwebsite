@@ -1,0 +1,17 @@
+.row{
+    min-height: 25vh;
+}
+.img{
+background:url("https://www.galveston.com/wp-content/uploads/2019/11/Galveston-Go-Karts-800x600.jpg");
+object-fit: cover;
+height: 75vh;
+}
+#clear{
+    opacity: 25%;
+}
+.move{
+    transform: translateY(8rem);
+}
+.cover{
+    background: cover;
+}
