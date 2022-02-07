@@ -9,6 +9,7 @@
         integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <style>
         body.debug .container,
         body.debug .container-fluid {
@@ -29,25 +30,29 @@
     <title>Racing</title>
 </head>
 
-<body class="debug container-fluid ">
+<body class=" container-fluid">
 
-    <header class=" row bg-dark  justify-content-around align-items-center">
-        <div class="col-3 ">
-            <h2 class="text-warning  mdi mdi-bolt mdi-48px"> LittlePandaRacing</h2>
-
-        </div>
-        <div class="col-3  d-flex justify-content-center">
-            <h4 class="div text-warning">Home</h4>
+    <header class=" row bg-color sticky-top  justify-content-around align-items-center">
+        <div class="col-md-4 ">
+            <h2 class=" accent mdi mdi-panda mdi-48px font"> LittlePandaRacing</h2>
 
         </div>
-        <div class="col-3  d-flex justify-content-center">
-            <h4 class="div text-warning">Cars</h4>
+        <div class="col-lg-4  d-flex  justify-content-between">
+            <h4 class="btn btn accent">Home</h4>
+            <h4 class="btn btn accent">Teams</h4>
+            <h4 class="btn btn accent">Results</h4>
+            <h4 class="btn btn accent">Tracks</h4>
+            <h4 class="btn btn accent">About Us</h4>
 
         </div>
-        <div class="col-3  d-flex justify-content-center">
-            <h4 class="div text-warning ">Past Results</h4>
+        <div class="col-lg-4  d-flex  justify-content-end">
+            <button class="btn btn accent">
+                <H5>Log In</H5>
+
+            </button>
 
         </div>
+
     </header>
 
 
@@ -55,37 +60,53 @@
 
 
 
-    <div class="row row1 img ">
-        <div class="col-5 d-flex justify-content-center">
-            <div class="card w-50 my-5">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <div class="row img">
+
+
+
+        <div class="col-lg-5 d-flex justify-content-center">
+            <div class="w-50 my-5">
+                <div class="card-body text-white Blur rounded">
+                    <h5 class="card-title tex-center "> Interested in creating a Team?</h5>
+                    <p> Please input your contact info below and a brief message about why you would like to join
+                        LittlePandaRacing league. We look Forward form hearing from you.
+                    </p>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="col-7 d-flex align-items-center">
-            <div class="w-50 d-none d-md-block">
+        <div class="col-lg-7 d-flex align-items-center">
+            <div class="w-50 d-none d-lg-block">
                 <div class="card-body clear">
-                    <h5 class="card-title text-light">Card title</h5>
-                    <p class="card-text text-light">With supporting text below as a natural lead-in to additional
-                        content.</p>
+                    <h5 class="card-title text-light">League Format</h5>
+                    <p class="card-text text-light">Only Racing league in the country to feature a league and Team
+                        format.</p>
 
                 </div>
             </div>
         </div>
     </div>
-    <div class="row bg-dark">
-        <div class="col-5 text-left my-5 p-3">
+    <div class="row bg-color">
+        <div class="col-lg-5 order-md-2 order-lg-1 text-left my-5 p-3">
             <div class="card-body">
                 <h5 class="card-title text-light">Card title</h5>
                 <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.
                 </p>
             </div>
         </div>
-        <div class="col-7 d-flex justify-content-center align-items-center">
-            <div class="card move my-4 w-50">
-                <div class="card-body h-75 m-2">
+        <div class="col-lg-7 d-flex justify-content-center order-md-1 order-lg-2 align-items-center">
+            <div class=" card move  w-50">
+                <div class="card-body smoky h-75 m-2 ">
                     <h5 class=" card-title">Card title</h5>
                     <p class="mdi mdi-tow-truck mdi-24px"> With supporting text below as a natural lead-in
                         to additional content.</p>
@@ -99,47 +120,67 @@
         </div>
     </div>
     <div class="row ">
-        <div class="col-4">
-            <div class="">
-                <img class="img-fluid"
-                    src="https://www.gokartguide.com/wp-content/uploads/2020/12/best-go-kart-racing-tips.jpg" alt="">
+        <div class="col-lg-4 d-flex justify-content-center">
+            <div class="sidepic">
+
 
             </div>
 
         </div>
 
-        <div class="col-8 d-flex align-items-center">
+        <div class="col-lg-8 d-flex align-items-center justify-content-center">
 
-            <div class="card w-50 my-5">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="w-75">
+                <div class="">
+                    <h5 class="card-title mdi mdi-bolt mdi-48px mt-5">With supporting text below as a natural lead-in
+                        to
+                        additional content.With
+                        supporting text below as a natural lead-in </h5>
+                    <p class="card-text bold">With supporting text below as a natural lead-in to additional content.With
+                        supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text bold">With supporting text below as a natural lead-in to additional content.With
+                        supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text bold">With supporting text below as a natural lead-in to additional content.With
+                        supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text bold">With supporting text below as a natural lead-in to additional content.With
+                        supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text bold">With supporting text below as a natural lead-in to additional content.With
+                        supporting text below as a natural lead-in to additional content.</p>
+                    <div class="d-flex justify-content-end ">
+                        <button class="btn btn-success"> Learn more</button>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-4 d-flex justify-content-center align-content-center">
-            <div class="card w-50 text-center m-2">
+    <div class="row">
+        <div class="col-lg-4 order-lg-1 order-md-2 d-flex justify-content-center align-items-center">
+            <div class="card w-50 h-75 text-center m-4">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 </div>
             </div>
         </div>
-        <div class="col-4 d-flex justify-content-center align-content-center">
-            <div class="card w-50 text-center  m-2">
-                <div class="card-body d-flex justify-content-center  flex-row">
+        <div class="col-lg-4 order-lg-2 order-md-1 d-flex text-center justify-content-center align-items-end">
+            <div class="card w-75  middlebox m-4">
+                <div class="card-body d-flex justify-content-center flex-row">
                     <div class="mdi mdi-wrench mdi-48px"></div>
+                    <div class="mdi mdi-wrench mdi-48px">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text"> With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
                     <div class="mdi mdi-wrench mdi-48px"></div>
-                    <div class="mdi mdi-wrench mdi-48px"></div>
+
+
                 </div>
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+
             </div>
         </div>
-        <div class="col-4 d-flex justify-content-center align-content-center">
-            <div class="card w-50 text-center m-2">
+        <div class="col-lg-4  order-lg-3 order-md-3 d-flex justify-content-center align-items-center">
+            <div class="card w-50 h-75 text-center m-4">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -150,7 +191,7 @@
     <div class="row bg-dark">
 
     </div>
-    <div class="row text-warning">
+    <div class="row accent">
 
     </div>
 

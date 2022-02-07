@@ -1,17 +1,55 @@
-.row{
-    min-height: 25vh;
+:root{
+    --blue: #002244;
+    --green:#69BE28;
+}
+.accent{
+    color:var(--green)
+
+}
+.bg-color{
+    background-color:var(--blue)
 }
 .img{
-background:url("https://www.galveston.com/wp-content/uploads/2019/11/Galveston-Go-Karts-800x600.jpg");
-object-fit: cover;
+background-image:url("https://images.unsplash.com/photo-1522057636957-0ceba31fb538?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+background-size: cover;
+background-position: center;
 height: 75vh;
 }
 #clear{
     opacity: 25%;
 }
-.move{
-    transform: translateY(8rem);
+/* .move{
+    transform: translateY(6rem);
+} */
+
+.middlebox{
+    height: 250px;
+    
 }
-.cover{
-    background: cover;
+
+.sidepic{
+    height: 500px;
+    width: 300px;
+    background-image: url("https://images.unsplash.com/photo-1584350384916-cdf5ffe0bbf6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80/250/600");
+    object-fit: cover;
+    background-position: center;
+    margin: 3rem;
+
+}
+
+.font{
+    font-family: 'Audiowide', cursive;
+}
+
+
+#Blur{
+    opacity: 25%;
+    border:none;
+}
+@media screen and (min-width: 1100px) {
+
+    
+    .move{
+        transform: translateY(6rem);
+    }
 }
